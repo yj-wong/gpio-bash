@@ -1,6 +1,6 @@
 #!/bin/bash/
 
-bash initMode
+bash initMode.sh
 
 if [ $(( $1 & 1 )) -eq 1 ]
 then

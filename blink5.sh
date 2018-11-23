@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bash initMode
+bash initMode.sh
 
 i=0
 j=0
