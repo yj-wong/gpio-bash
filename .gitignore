@@ -1,0 +1,5 @@
+# Use echo instead of gpio
+# For debug use
+
+cylon2.sh
+setbits2.sh
