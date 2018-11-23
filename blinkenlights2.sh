@@ -2,6 +2,7 @@
 
 while [ 1 ]
 do
-  bash setbits.sh $RANDOM
+  bash setbits2.sh $RANDOM
+  echo
   sleep 0.25
 done
