@@ -7,7 +7,7 @@ while [ 1 ]
 do
 	while [ $counter -le 3 ]
 	do
-		bash initMode
+		bash initMode.sh
 
 		# echo $counter
 		gpio write $counter 1
@@ -16,9 +16,10 @@ do
 
 	done
 
+	counter=2
 	while [ $counter -gt 0 ]
 	do
-		bash initMode
+		bash initMode.sh
 
 		# echo $counter
 		gpio write $counter 1
